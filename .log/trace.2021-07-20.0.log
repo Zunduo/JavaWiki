@@ -1,0 +1,394 @@
+2021-07-20 17:54:34.974 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 29935 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 17:54:34.978 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 17:54:35.029 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-20 17:54:35.045 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-20 17:54:35.842 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 17:54:35.849 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 17:54:35.849 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 17:54:35.849 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 17:54:35.894 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 17:54:35.894 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 848 ms
+2021-07-20 17:54:36.238 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 17:54:36.400 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 17:54:36.415 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 17:54:36.429 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 17:54:36.439 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 1.855 seconds (JVM running for 2.472)
+2021-07-20 17:54:36.441 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 17:54:36.442 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 17:54:44.067 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-20 17:54:44.067 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-20 17:54:44.068 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-07-20 17:55:15.656 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-07-20 17:55:15.910 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-07-20 18:08:43.342 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 18:08:43.343 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-07-20 18:08:43.348 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-07-20 18:08:43.419 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 29935 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 18:08:43.420 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 18:08:43.576 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 18:08:43.576 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 18:08:43.577 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 18:08:43.577 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 18:08:43.584 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 18:08:43.585 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 163 ms
+2021-07-20 18:08:43.672 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 18:08:43.713 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 18:08:43.719 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 18:08:43.720 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 18:08:43.724 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 0.336 seconds (JVM running for 849.743)
+2021-07-20 18:08:43.725 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-20 18:08:43.725 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 18:08:43.726 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 18:14:34.142 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 18:14:35.648 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 30061 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 18:14:35.651 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 18:14:35.710 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-20 18:14:35.724 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-20 18:14:36.445 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 18:14:36.452 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 18:14:36.453 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 18:14:36.453 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 18:14:36.498 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 18:14:36.498 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 773 ms
+2021-07-20 18:14:36.811 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 18:14:36.940 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 18:14:36.953 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 18:14:36.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 18:14:36.972 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 1.656 seconds (JVM running for 2.21)
+2021-07-20 18:14:36.974 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 18:14:36.975 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 18:14:49.316 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-20 18:14:49.317 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-20 18:14:49.318 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-07-20 18:14:49.411 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-07-20 18:14:49.668 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-07-20 18:37:48.907 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 18:37:48.912 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-07-20 18:37:48.917 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-07-20 18:37:51.181 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 30334 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 18:37:51.183 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 18:37:51.240 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-20 18:37:51.240 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-20 18:37:52.095 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 18:37:52.103 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 18:37:52.104 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 18:37:52.104 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 18:37:52.151 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 18:37:52.151 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 909 ms
+2021-07-20 18:37:52.468 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 18:37:52.601 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 18:37:52.616 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 18:37:52.628 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 18:37:52.636 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 1.757 seconds (JVM running for 2.284)
+2021-07-20 18:37:52.639 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 18:37:52.639 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 18:44:02.532 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-20 18:44:02.532 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-20 18:44:02.533 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-07-20 18:44:02.601 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-07-20 18:44:02.864 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-07-20 19:05:41.894 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s776ms).
+2021-07-20 19:33:06.797 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m54s897ms).
+2021-07-20 19:53:22.672 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s362ms).
+2021-07-20 21:49:09.618 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m43s402ms).
+2021-07-20 23:02:49.281 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m9s478ms).
+2021-07-20 23:38:22.712 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:38:22.713 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-07-20 23:38:22.716 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-07-20 23:38:22.799 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 30334 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:38:22.799 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:38:22.974 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:38:22.975 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:38:22.975 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:38:22.975 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:38:22.982 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:38:22.982 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 180 ms
+2021-07-20 23:38:23.036 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/zunduo/Downloads/wiki/target/classes/com/zunduo/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10ce76d3]
+2021-07-20 23:38:23.036 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-20 23:38:23.042 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-20 23:38:23.064 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/zunduo/Downloads/wiki/target/classes/com/zunduo/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10ce76d3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.zunduo.wiki.config.WikiApplication.main(WikiApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10ce76d3]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/zunduo/wiki/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.zunduo.wiki.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:466)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 29 common frames omitted
+2021-07-20 23:39:11.907 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 30334 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:39:11.907 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:39:12.044 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:39:12.044 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:39:12.044 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:39:12.044 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:39:12.052 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:39:12.052 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 143 ms
+2021-07-20 23:39:12.133 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:39:12.174 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 23:39:12.180 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:39:12.181 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 23:39:12.184 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 0.307 seconds (JVM running for 12277.916)
+2021-07-20 23:39:12.185 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-20 23:39:12.186 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 23:39:12.186 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 23:39:30.799 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:39:30.876 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 30334 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:39:30.877 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:39:30.999 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:39:31.000 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:39:31.000 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:39:31.000 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:39:31.007 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:39:31.007 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 129 ms
+2021-07-20 23:39:31.071 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:39:31.100 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 23:39:31.104 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:39:31.106 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 23:39:31.109 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 0.269 seconds (JVM running for 12296.841)
+2021-07-20 23:39:31.110 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-20 23:39:31.110 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 23:39:31.111 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 23:39:56.758 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:39:56.828 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 30334 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:39:56.828 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:39:56.939 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:39:56.939 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:39:56.939 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:39:56.939 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:39:56.945 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:39:56.946 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 116 ms
+2021-07-20 23:39:56.985 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/zunduo/Downloads/wiki/target/classes/com/zunduo/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@548c398e]
+2021-07-20 23:39:56.985 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-20 23:39:56.989 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-20 23:39:56.990 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookController' defined in file [/Users/zunduo/Downloads/wiki/target/classes/com/zunduo/wiki/controller/EbookController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@548c398e]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.zunduo.wiki.config.WikiApplication.main(WikiApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.EbookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@548c398e]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/zunduo/wiki/service/EbookService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.zunduo.wiki.service.EbookService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:466)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 29 common frames omitted
+2021-07-20 23:40:29.442 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 31815 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:40:29.444 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:40:29.493 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-20 23:40:29.493 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-20 23:40:30.265 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:40:30.273 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:40:30.274 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:40:30.274 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:40:30.321 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:40:30.322 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 828 ms
+2021-07-20 23:40:30.645 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:40:30.787 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 23:40:30.802 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:40:30.814 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 23:40:30.824 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 1.645 seconds (JVM running for 2.102)
+2021-07-20 23:40:30.827 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 23:40:30.827 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 23:41:58.568 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:41:59.879 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 31860 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:41:59.881 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:41:59.930 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-20 23:41:59.931 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-20 23:42:00.657 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:42:00.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:42:00.665 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:42:00.666 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:42:00.712 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:42:00.712 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 780 ms
+2021-07-20 23:42:01.006 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:42:01.134 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 23:42:01.146 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:42:01.155 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 23:42:01.183 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 1.593 seconds (JVM running for 1.999)
+2021-07-20 23:42:01.186 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 23:42:01.186 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 23:42:09.694 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-20 23:42:09.694 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-20 23:42:09.696 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-07-20 23:42:09.761 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-07-20 23:42:09.990 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-07-20 23:51:39.613 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:51:39.614 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-07-20 23:51:39.623 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-07-20 23:51:39.723 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 31860 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:51:39.724 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:51:39.930 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.zunduo.wiki.mapper]' package. Please check your configuration.
+2021-07-20 23:51:39.975 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:51:39.976 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:51:39.976 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:51:39.977 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:51:39.989 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:51:39.990 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 263 ms
+2021-07-20 23:51:40.048 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:51:40.117 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+2021-07-20 23:51:40.117 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:51:40.118 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-20 23:51:40.127 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-20 23:51:40.152 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.zunduo.wiki.config.WikiApplication.main(WikiApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 23 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:632)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ac52ad79.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ac52ad79$$FastClassBySpringCGLIB$$fda52732.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$ac52ad79.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/zunduo/Downloads/wiki/target/classes/mapper/DemoMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 37 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 39 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zunduo.wiki.domain.Demo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 43 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.zunduo.wiki.domain.Demo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 45 common frames omitted
+2021-07-20 23:51:41.993 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 31860 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-20 23:51:41.993 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-20 23:51:42.121 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-20 23:51:42.122 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:51:42.122 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-20 23:51:42.122 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-20 23:51:42.129 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-20 23:51:42.130 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 135 ms
+2021-07-20 23:51:42.201 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-20 23:51:42.233 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-20 23:51:42.239 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-20 23:51:42.240 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-20 23:51:42.243 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 0.268 seconds (JVM running for 583.09)
+2021-07-20 23:51:42.244 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-20 23:51:42.245 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-20 23:51:42.245 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-20 23:52:41.190 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
