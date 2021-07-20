@@ -1,5 +1,6 @@
 package com.zunduo.wiki.service;
 
+import com.mysql.cj.util.StringUtils;
 import com.zunduo.wiki.domain.Ebook;
 import com.zunduo.wiki.domain.EbookExample;
 import com.zunduo.wiki.mapper.EbookMapper;
@@ -8,6 +9,7 @@ import com.zunduo.wiki.resp.EbookResp;
 import com.zunduo.wiki.util.CopyUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
@@ -22,7 +24,9 @@ public class EbookService {
     public List<EbookResp> list(EbookReq req) {
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
-        criteria.andNameLike("%" + req.getName() + "%");
+        if (!ObjectUtils.isEmpty(req.getName())){
+            criteria.andNameLike("%" + req.getName() + "%");
+        }
         List<Ebook> ebookList = ebookMapper.selectByExample(ebookExample);
 
         List<EbookResp> respList = new ArrayList<>();
