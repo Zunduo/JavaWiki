@@ -95,8 +95,8 @@ export default defineComponent({
     }
 
     onMounted(() =>{
-      console.log("onMounted111");
-      axios.get(process.env.VUE_APP_SERVER+"/ebook/list ").then((response) => {
+      console.log("onMounted");
+      axios.get("/ebook/list ").then((response) => {
         const data = response.data;
         ebooks.value = data.content;
         ebooks1.books = data.content
@@ -126,3 +126,12 @@ export default defineComponent({
 });
 </script>
 
+<style scoped>
+.ant-avatar {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 8%;
+  margin: 5px 0;
+}
+</style>
