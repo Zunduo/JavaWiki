@@ -4,6 +4,7 @@ import com.zunduo.wiki.domain.Ebook;
 import com.zunduo.wiki.req.EbookReq;
 import com.zunduo.wiki.resp.CommonResp;
 import com.zunduo.wiki.resp.EbookResp;
+import com.zunduo.wiki.resp.PageResp;
 import com.zunduo.wiki.service.EbookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,8 +22,8 @@ public class EbookController {
 
     @GetMapping("/list")
     public CommonResp list(EbookReq req) {
-        CommonResp<List<EbookResp>> resp = new CommonResp<>();
-        List<EbookResp> list = ebookService.list(req);
+        CommonResp<PageResp<EbookResp>> resp = new CommonResp<>();
+        PageResp<EbookResp> list = ebookService.list(req);
         resp.setContent(list);
         return resp;
     }
