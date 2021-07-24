@@ -77,50 +77,51 @@ import axios from 'axios';
 export default defineComponent({
   name: 'Home',
   setup() {
-    console.log("setup");
     const ebooks = ref();
     const ebooks1 = reactive({books:[]});
     // const listData: Record<string, string>[] = [];
-    const listData: any = [];
-    for (let i = 0; i < 23; i++) {
-      listData.push({
-        href: 'https://www.antdv.com/',
-        title: `ant design vue part ${i}`,
-        avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-        description:
-            'Ant Design, a design language for background applications, is refined by Ant UED Team.',
-        content:
-            'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
-      });
-    }
+    // const listData: any = [];
+    // for (let i = 0; i < 23; i++) {
+    //   listData.push({
+    //     href: 'https://www.antdv.com/',
+    //     title: `ant design vue part ${i}`,
+    //     avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
+    //     description:
+    //         'Ant Design, a design language for background applications, is refined by Ant UED Team.',
+    //     content:
+    //         'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
+    //   });
+    // }
 
     onMounted(() =>{
       console.log("onMounted");
-      axios.get("/ebook/list ").then((response) => {
+      axios.get("/ebook/list",{
+        params: {
+          page: 1,
+          size: 1000
+        }
+      }).then((response) => {
         const data = response.data;
-        ebooks.value = data.content;
-        ebooks1.books = data.content
-        console.log(response);
+        ebooks.value = data.content.list;
       });
     })
 
-    const pagination = {
-      onChange: (page: number) => {
-        console.log(page);
-      },
-      pageSize: 3,
-    };
-    const actions: Record<string, string>[] = [
-      { type: 'StarOutlined', text: '156' },
-      { type: 'LikeOutlined', text: '156' },
-      { type: 'MessageOutlined', text: '2' },
-    ];
 
-    return {ebooks,
-    books: toRef(ebooks1, "books"),
-      listData,
-      pagination,
-      actions
+
+    return {
+      ebooks,
+    // books: toRef(ebooks1, "books"),
+      pagination: {
+        onChange: (page: number) => {
+          console.log(page);
+        },
+        pageSize: 3,
+      },
+      actions: [
+        { type: 'StarOutlined', text: '156' },
+        { type: 'LikeOutlined', text: '156' },
+        { type: 'MessageOutlined', text: '2' },
+      ]
     };
   }
 });
