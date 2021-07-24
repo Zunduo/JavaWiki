@@ -7,7 +7,7 @@ public class PageResp<T> {
 
     private List<T> list;
 
-    public long getTotal() {
+    public long  getTotal() {
         return total;
     }
 
