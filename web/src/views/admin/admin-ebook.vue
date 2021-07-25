@@ -24,7 +24,7 @@
           </a-button>
         </a-form-item>
         <a-form-item>
-          <a-button type="primary" @click="add()" size="large">
+          <a-button type="primary" @click="add()">
             Create
           </a-button>
         </a-form-item>
