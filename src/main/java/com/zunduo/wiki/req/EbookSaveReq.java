@@ -1,6 +1,8 @@
 package com.zunduo.wiki.req;
 
+
 public class EbookSaveReq {
+
     private Long id;
 
     private String name;
