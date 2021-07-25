@@ -41,7 +41,7 @@
           <img v-if="cover" :src="cover" alt="avatar" />
         </template>
         <template v-slot:category="{ text, record }">
-          <span>{{getCategoryName(record.category1Id)}} / {{getCategoryName(record.category2Id)}} </span>
+          <span>{{getCategoryName(record.category1Id)}} / {{getCategoryName(record.category2Id)}}</span>
         </template>
         <template v-slot:action="{ text, record }">
           <a-space size="small">
@@ -146,7 +146,7 @@ export default defineComponent({
     const handleQuery = (params: any) => {
       loading.value = true;
       // 如果不清空现有数据，则编辑保存重新加载数据后，再点编辑，则列表显示的还是编辑前的数据
-      //  ebooks.value = [];
+        ebooks.value = [];
       axios.get("/ebook/list", {
         params: {
           page: params.page,
