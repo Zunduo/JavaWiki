@@ -50,7 +50,7 @@
                 <a-button type="primary">文档管理</a-button>
               </router-link>
             <a-button type="primary" @click="edit(record)">
-              编辑
+              编辑 -
             </a-button>
             <a-popconfirm
                 title="Are you sure delete this task?"
