@@ -183,19 +183,15 @@ export default defineComponent({
     treeSelectData.value = [];
     const doc = ref();
     doc.value={};
-    const modalVisible = ref(false);
-    const modalLoading = ref(false);
     const editor = new E('#content')
     editor.config.zIndex = 0;
 
     const handleSave = () => {
-      modalLoading.value = true;
       doc.value.content = editor.txt.html();
       axios.post("/doc/save", doc.value).then((response) => {
-        modalLoading.value = false;
         const data = response.data; // data = commonResp
         if (data.success){
-          modalVisible.value = false;
+          message.success("Save success!")
           handleQuery()
         } else {
           message.error(data.message);
@@ -286,7 +282,6 @@ export default defineComponent({
      */
     const edit = (record: any) => {
 
-      modalVisible.value = true;
       doc.value = Tool.copy(record);
       handleQueryContent();
 
@@ -300,7 +295,7 @@ export default defineComponent({
      * 新增
      */
     const add = () =>{
-      modalVisible.value = true;
+      editor.txt.html("");
       doc.value = {
         ebookId: route.query.ebookId
       };
@@ -360,8 +355,6 @@ export default defineComponent({
       handleDelete,
 
       doc,
-      modalVisible,
-      modalLoading,
       handleSave,
       treeSelectData,
 
