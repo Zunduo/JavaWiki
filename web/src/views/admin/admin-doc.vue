@@ -87,11 +87,20 @@
               <a-input v-model:value="doc.sort" placeholder="Sort Sequence"/>
             </a-form-item>
             <a-form-item>
+              <a-button type="primary" @click="handlePreviewContent()">
+                <EyeOutlined /> Content Preview
+              </a-button>
+            </a-form-item>
+            <a-form-item>
               <div id="content"></div>
             </a-form-item>
           </a-form>
         </a-col>
       </a-row>
+
+      <a-drawer width="900" placement="right" :closable="false" :visible="drawerVisible" @close="onDrawerClose">
+        <div class="wangeditor" :innerHTML="previewHtml"></div>
+      </a-drawer>
     </a-layout-content>
   </a-layout>
 
@@ -130,6 +139,9 @@ export default defineComponent({
     param.value = {};
     const docs = ref();
     const loading = ref(false);
+    const treeSelectData = ref();
+    treeSelectData.value = [];
+
     const columns = [
       {
         title: '名称',
@@ -162,7 +174,7 @@ export default defineComponent({
       loading.value = true;
       // 如果不清空现有数据，则编辑保存重新加载数据后，再点编辑，则列表显示的还是编辑前的数据
         level1.value = [];
-      axios.get("/doc/all").then((response) => {
+      axios.get("/doc/all/"+ route.query.ebookId).then((response) => {
         loading.value = false;
         const data = response.data;
         if (data.success){
@@ -171,6 +183,9 @@ export default defineComponent({
           level1.value = [];
           level1.value = Tool.array2Tree(docs.value,0);
           console.log("tree data:", level1);
+          treeSelectData.value = Tool.copy(level1.value);
+          treeSelectData.value.unshift({id: 0, name: 'null'});
+
         } else {
           message.error(data.message);
         }
@@ -179,10 +194,11 @@ export default defineComponent({
     };
 
     // -------- 表单 ---------
-    const treeSelectData = ref();
-    treeSelectData.value = [];
+
     const doc = ref();
-    doc.value={};
+    doc.value = {
+      ebookId: route.query.ebookId
+    };
     const editor = new E('#content')
     editor.config.zIndex = 0;
 
@@ -334,6 +350,19 @@ export default defineComponent({
       console.log(e);
       message.error('Click on No');
     };
+    // ----------------富文本预览--------------
+    const drawerVisible = ref(false);
+    const previewHtml = ref();
+
+    const handlePreviewContent = () => {
+      const html = editor.txt.html();
+      previewHtml.value = html;
+      drawerVisible.value = true;
+    };
+
+    const onDrawerClose = () => {
+      drawerVisible.value = false;
+    };
 
     onMounted(() => {
       handleQuery();
@@ -360,6 +389,12 @@ export default defineComponent({
 
       confirm,
       cancel,
+
+
+      drawerVisible,
+      previewHtml,
+      handlePreviewContent,
+      onDrawerClose,
     }
   }
 });
