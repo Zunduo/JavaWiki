@@ -1,9 +1,11 @@
 package com.zunduo.wiki.controller;
 
+import com.zunduo.wiki.req.UserLoginReq;
 import com.zunduo.wiki.req.UserQueryReq;
 import com.zunduo.wiki.req.UserResetPasswordReq;
 import com.zunduo.wiki.req.UserSaveReq;
 import com.zunduo.wiki.resp.CommonResp;
+import com.zunduo.wiki.resp.UserLoginResp;
 import com.zunduo.wiki.resp.UserQueryResp;
 import com.zunduo.wiki.resp.PageResp;
 import com.zunduo.wiki.service.UserService;
@@ -35,6 +37,12 @@ public class UserController {
         userService.save(req);
         return resp;
     }
+    @DeleteMapping("/delete/{id}")
+    public CommonResp delete(@PathVariable Long id) {
+        CommonResp resp = new CommonResp<>();
+        userService.delete(id);
+        return resp;
+    }
     @PostMapping("/reset-password")
     public CommonResp resetPassword(@Valid @RequestBody UserResetPasswordReq req) {
         req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
@@ -42,11 +50,12 @@ public class UserController {
         userService.resetPassword(req);
         return resp;
     }
-
-    @DeleteMapping("/delete/{id}")
-    public CommonResp delete(@PathVariable Long id) {
-        CommonResp resp = new CommonResp<>();
-        userService.delete(id);
+    @PostMapping("/login")
+    public CommonResp login(@Valid @RequestBody UserLoginReq req) {
+        req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
+        CommonResp<UserLoginResp> resp = new CommonResp<>();
+        UserLoginResp userLoginResp = userService.login(req);
+        resp.setContent(userLoginResp);
         return resp;
     }
 }

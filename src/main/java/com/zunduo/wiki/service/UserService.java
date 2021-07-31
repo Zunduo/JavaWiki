@@ -7,9 +7,11 @@ import com.zunduo.wiki.domain.UserExample;
 import com.zunduo.wiki.exception.BusinessException;
 import com.zunduo.wiki.exception.BusinessExceptionCode;
 import com.zunduo.wiki.mapper.UserMapper;
+import com.zunduo.wiki.req.UserLoginReq;
 import com.zunduo.wiki.req.UserQueryReq;
 import com.zunduo.wiki.req.UserResetPasswordReq;
 import com.zunduo.wiki.req.UserSaveReq;
+import com.zunduo.wiki.resp.UserLoginResp;
 import com.zunduo.wiki.resp.UserQueryResp;
 import com.zunduo.wiki.resp.PageResp;
 import com.zunduo.wiki.util.CopyUtil;
@@ -110,6 +112,30 @@ public class  UserService {
     public void resetPassword(UserResetPasswordReq req){
         User user = CopyUtil.copy(req,User.class);
         userMapper.updateByPrimaryKeySelective(user);
+
+    }    /**
+     * 登录
+     * @param req
+     */
+    public UserLoginResp login(UserLoginReq req){
+        User userDb = selectByLoginName(req.getLoginName());
+        if (ObjectUtils.isEmpty(userDb)){
+            LOG.info("username does not exist,{}",req.getLoginName());
+            //username does not exist
+            throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
+        } else {
+            if (userDb.getPassword().equals(req.getPassword())) {
+                // login success
+                UserLoginResp userLoginResp = CopyUtil.copy(userDb, UserLoginResp.class);
+                return userLoginResp;
+            } else {
+                // wrong password
+                LOG.info("password is wrong,user type in: {}, DB password: {}",req.getPassword(),userDb.getPassword());
+                throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
+            }
+
+        }
+
 
     }
 
