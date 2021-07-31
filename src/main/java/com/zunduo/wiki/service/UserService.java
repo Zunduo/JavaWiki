@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class UserService {
+public class  UserService {
 
     private static final Logger LOG = LoggerFactory.getLogger((UserService.class));
 
@@ -77,7 +77,8 @@ public class UserService {
                 }
             } else {
                 //更新
-                userMapper.updateByPrimaryKey(user);
+                user.setLoginName(null);
+                userMapper.updateByPrimaryKeySelective(user);
             }
 
         }
