@@ -47,8 +47,11 @@
 
 <script lang="ts">
 import {defineComponent, ref} from 'vue';
-import _default from "ant-design-vue/es/vc-menu/Divider";
-import setup = _default.setup;
+import axios from "axios";
+import {message} from "ant-design-vue";
+
+declare let hexMd5: any;
+declare let KEY: any;
 
 export default defineComponent({
   name: 'the-header',
@@ -65,6 +68,18 @@ export default defineComponent({
     };
     const login = () => {
       console.log("开始登录");
+      loginModalLoading.value = true;
+      loginUser.value.password = hexMd5(loginUser.value.password + KEY);
+      axios.post("/user/login", loginUser.value).then((response) => {
+        loginModalLoading.value = false;
+        const data = response.data;
+        if (data.success){
+          loginModalVisible.value = false;
+          message.success("Login success!")
+        } else {
+          message.error(data.message)
+        }
+      })
     }
 
     return {

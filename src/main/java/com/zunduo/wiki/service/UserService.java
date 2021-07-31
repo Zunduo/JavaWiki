@@ -122,7 +122,7 @@ public class  UserService {
         if (ObjectUtils.isEmpty(userDb)){
             LOG.info("username does not exist,{}",req.getLoginName());
             //username does not exist
-            throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
+            throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
         } else {
             if (userDb.getPassword().equals(req.getPassword())) {
                 // login success
@@ -131,7 +131,7 @@ public class  UserService {
             } else {
                 // wrong password
                 LOG.info("password is wrong,user type in: {}, DB password: {}",req.getPassword(),userDb.getPassword());
-                throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
+                throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
             }
 
         }
