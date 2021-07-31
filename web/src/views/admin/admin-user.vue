@@ -66,7 +66,8 @@
       <a-form-item label="昵称">
         <a-input v-model:value="user.name" />
       </a-form-item>
-      <a-form-item label="密码" v-show="!user.id">
+<!--      <a-form-item label="密码" v-show="!user.id">-->
+        <a-form-item label="密码">
         <a-input v-model:value="user.password" type="password"/>
       </a-form-item>
     </a-form>
@@ -91,6 +92,9 @@ import { defineComponent, onMounted, ref } from 'vue';
 import axios from 'axios';
 import {message} from "ant-design-vue";
 import {Tool} from "@/util/tool";
+
+declare let hexMd5: any;
+declare let KEY: any;
 
 export default defineComponent({
   name: 'AdminUser',
@@ -166,7 +170,7 @@ export default defineComponent({
     const handleModalOk = () => {
       modalLoading.value = true;
 
-      // user.value.password = hexMd5(user.value.password + KEY);
+       user.value.password = hexMd5(user.value.password + KEY);
 
       axios.post("/user/save", user.value).then((response) => {
         modalLoading.value = false;
