@@ -1,6 +1,7 @@
 package com.zunduo.wiki.controller;
 
 import com.zunduo.wiki.req.UserQueryReq;
+import com.zunduo.wiki.req.UserResetPasswordReq;
 import com.zunduo.wiki.req.UserSaveReq;
 import com.zunduo.wiki.resp.CommonResp;
 import com.zunduo.wiki.resp.UserQueryResp;
@@ -32,6 +33,13 @@ public class UserController {
         req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
         CommonResp resp = new CommonResp<>();
         userService.save(req);
+        return resp;
+    }
+    @PostMapping("/reset-password")
+    public CommonResp resetPassword(@Valid @RequestBody UserResetPasswordReq req) {
+        req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
+        CommonResp resp = new CommonResp<>();
+        userService.resetPassword(req);
         return resp;
     }
 

@@ -8,6 +8,7 @@ import com.zunduo.wiki.exception.BusinessException;
 import com.zunduo.wiki.exception.BusinessExceptionCode;
 import com.zunduo.wiki.mapper.UserMapper;
 import com.zunduo.wiki.req.UserQueryReq;
+import com.zunduo.wiki.req.UserResetPasswordReq;
 import com.zunduo.wiki.req.UserSaveReq;
 import com.zunduo.wiki.resp.UserQueryResp;
 import com.zunduo.wiki.resp.PageResp;
@@ -81,7 +82,6 @@ public class  UserService {
                 user.setPassword(null);
                 userMapper.updateByPrimaryKeySelective(user);
             }
-
         }
 
     /**
@@ -101,6 +101,16 @@ public class  UserService {
         } else {
             return userList.get(0);
         }
+    }
+
+    /**
+     * 修改密码
+     * @param req
+     */
+    public void resetPassword(UserResetPasswordReq req){
+        User user = CopyUtil.copy(req,User.class);
+        userMapper.updateByPrimaryKeySelective(user);
+
     }
 
 }
