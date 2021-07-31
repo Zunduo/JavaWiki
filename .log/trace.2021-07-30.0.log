@@ -1,0 +1,392 @@
+2021-07-30 04:34:44.055 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=30m50s762ms).
+2021-07-30 04:37:39.242 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m25s162ms).
+2021-07-30 04:55:09.176 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m59s922ms).
+2021-07-30 05:12:41.607 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=17m32s431ms).
+2021-07-30 05:31:23.210 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m9s812ms).
+2021-07-30 05:49:31.381 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=17m38s184ms).
+2021-07-30 06:03:49.184 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=13m47s789ms).
+2021-07-30 07:04:16.549 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h27s364ms).
+2021-07-30 07:10:07.767 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m51s255ms).
+2021-07-30 07:28:51.429 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m13s658ms).
+2021-07-30 07:46:08.218 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m46s757ms).
+2021-07-30 08:47:05.162 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26s943ms).
+2021-07-30 09:47:32.080 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26s918ms).
+2021-07-30 10:15:14.154 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=27m11s999ms).
+2021-07-30 11:40:42.912 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m56s423ms).
+2021-07-30 13:08:05.649 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m20s417ms).
+2021-07-30 15:15:52.459 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=29m16s147ms).
+2021-07-30 15:42:54.386 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=24m30s55ms).
+2021-07-30 16:15:25.511 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=29m21s344ms).
+2021-07-30 16:41:40.002 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=23m14s438ms).
+2021-07-30 17:11:33.155 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=29m23s144ms).
+2021-07-30 18:11:59.706 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26s551ms).
+2021-07-30 18:28:51.232 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m21s533ms).
+2021-07-30 19:24:41.465 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=55m20s229ms).
+2021-07-30 20:17:50.521 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=26m38s889ms).
+2021-07-30 20:53:50.089 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m11s460ms).
+2021-07-30 21:29:47.704 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=57s399ms).
+2021-07-30 22:06:19.807 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m129ms).
+2021-07-30 22:14:02.848 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:14:02.848 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2021-07-30 22:14:02.851 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2021-07-30 22:14:04.606 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 14949 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-30 22:14:04.605 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-07-30 22:14:04.611 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-30 22:14:04.646 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-30 22:14:04.646 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-30 22:14:05.506 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-30 22:14:05.513 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:14:05.513 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-30 22:14:05.513 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-30 22:14:05.559 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-30 22:14:05.560 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 913 ms
+2021-07-30 22:14:06.076 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:14:06.347 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-30 22:14:06.365 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:14:06.376 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-30 22:14:06.386 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 2.05 seconds (JVM running for 2.763)
+2021-07-30 22:14:06.388 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-30 22:14:06.388 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-30 22:37:30.885 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-30 22:37:30.887 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-07-30 22:37:30.889 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2021-07-30 22:37:30.927 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:37:30.928 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-07-30 22:37:30.928 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.CategoryController.all
+2021-07-30 22:37:30.929 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:37:30.964 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: []
+2021-07-30 22:37:31.006 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2021-07-30 22:37:31.272 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2021-07-30 22:37:31.279 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2021-07-30 22:37:31.296 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:37:31.310 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2021-07-30 22:37:31.311 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 7251855221150, 100, Ant Design View, 1
+2021-07-30 22:37:31.312 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2021-07-30 22:37:31.313 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2021-07-30 22:37:31.313 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2021-07-30 22:37:31.313 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2021-07-30 22:37:31.313 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2021-07-30 22:37:31.314 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2021-07-30 22:37:31.314 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2021-07-30 22:37:31.315 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2021-07-30 22:37:31.315 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2021-07-30 22:37:31.315 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2021-07-30 22:37:31.316 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2021-07-30 22:37:31.316 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2021-07-30 22:37:31.316 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2021-07-30 22:37:31.317 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2021-07-30 22:37:31.317 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2021-07-30 22:37:31.319 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 16
+2021-07-30 22:37:31.345 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":[{"id":7251855221150,"name":"Ant Design View","parent":100,"sort":1},{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2021-07-30 22:37:31.346 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：421 ms -------------
+2021-07-30 22:37:31.917 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:37:31.917 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-07-30 22:37:31.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.CategoryController.all
+2021-07-30 22:37:31.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:37:31.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: []
+2021-07-30 22:37:31.919 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2021-07-30 22:37:31.919 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:37:31.920 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2021-07-30 22:37:31.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 7251855221150, 100, Ant Design View, 1
+2021-07-30 22:37:31.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2021-07-30 22:37:31.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2021-07-30 22:37:31.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2021-07-30 22:37:31.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2021-07-30 22:37:31.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2021-07-30 22:37:31.923 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2021-07-30 22:37:31.923 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2021-07-30 22:37:31.923 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2021-07-30 22:37:31.924 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2021-07-30 22:37:31.924 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2021-07-30 22:37:31.924 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2021-07-30 22:37:31.924 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2021-07-30 22:37:31.925 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2021-07-30 22:37:31.925 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2021-07-30 22:37:31.925 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2021-07-30 22:37:31.926 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 16
+2021-07-30 22:37:31.927 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":[{"id":7251855221150,"name":"Ant Design View","parent":100,"sort":1},{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2021-07-30 22:37:31.927 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2021-07-30 22:37:32.008 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:37:32.009 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-07-30 22:37:32.009 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.EbookController.list
+2021-07-30 22:37:32.009 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:37:32.011 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: [{"page":1,"size":4}]
+2021-07-30 22:37:32.042 DEBUG c.z.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2021-07-30 22:37:32.062 DEBUG c.z.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:37:32.063 TRACE c.z.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2021-07-30 22:37:32.083 TRACE c.z.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 6
+2021-07-30 22:37:32.084 DEBUG c.z.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:37:32.085 DEBUG com.zunduo.wiki.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2021-07-30 22:37:32.085 DEBUG com.zunduo.wiki.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2021-07-30 22:37:32.086 TRACE com.zunduo.wiki.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2021-07-30 22:37:32.087 TRACE com.zunduo.wiki.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, SpringBoot 入门教程, 200, 201, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, 1, 2, 3
+2021-07-30 22:37:32.087 TRACE com.zunduo.wiki.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 100, 101, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, null, null, null
+2021-07-30 22:37:32.087 TRACE com.zunduo.wiki.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 3, Python 入门教程, 200, 202, 零基础入门 Python 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2021-07-30 22:37:32.088 TRACE com.zunduo.wiki.mapper.EbookMapper.selectByExample:143  [32m                  [0;39m <==        Row: 4, MySQL 入门教程, 400, 401, 零基础入门 MySQL 开发，企业级应用开发最佳首选框架, null, null, null, null
+2021-07-30 22:37:32.088 DEBUG com.zunduo.wiki.mapper.EbookMapper.selectByExample:137  [32m                  [0;39m <==      Total: 4
+2021-07-30 22:37:32.089 INFO  com.zunduo.wiki.service.EbookService              :48   [32m                  [0;39m 总行数:6
+2021-07-30 22:37:32.090 INFO  com.zunduo.wiki.service.EbookService              :49   [32m                  [0;39m 总页数:2
+2021-07-30 22:37:32.098 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","docCount":1,"id":1,"name":"SpringBoot 入门教程","viewCount":2,"voteCount":3},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","id":2,"name":"Vue 入门教程"},{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"category1Id":400,"category2Id":401,"description":"零基础入门 MySQL 开发，企业级应用开发最佳首选框架","id":4,"name":"MySQL 入门教程"}],"total":6},"success":true}
+2021-07-30 22:37:32.098 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：90 ms -------------
+2021-07-30 22:41:28.572 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:41:28.574 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-07-30 22:41:28.574 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.UserController.list
+2021-07-30 22:41:28.574 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:41:28.576 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-07-30 22:41:28.585 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2021-07-30 22:41:28.585 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:41:28.589 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==    Columns: count(0)
+2021-07-30 22:41:28.589 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==        Row: 0
+2021-07-30 22:41:28.590 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:41:28.590 INFO  com.zunduo.wiki.service.UserService               :44   [32m                  [0;39m 总行数:0
+2021-07-30 22:41:28.590 INFO  com.zunduo.wiki.service.UserService               :45   [32m                  [0;39m 总页数:0
+2021-07-30 22:41:28.591 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2021-07-30 22:41:28.591 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：19 ms -------------
+2021-07-30 22:41:31.252 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:41:31.252 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-07-30 22:41:31.253 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.CategoryController.all
+2021-07-30 22:41:31.253 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:41:31.253 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: []
+2021-07-30 22:41:31.254 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2021-07-30 22:41:31.254 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:41:31.255 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2021-07-30 22:41:31.255 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 7251855221150, 100, Ant Design View, 1
+2021-07-30 22:41:31.263 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2021-07-30 22:41:31.264 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2021-07-30 22:41:31.264 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2021-07-30 22:41:31.264 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2021-07-30 22:41:31.265 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2021-07-30 22:41:31.265 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2021-07-30 22:41:31.265 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2021-07-30 22:41:31.265 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2021-07-30 22:41:31.266 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2021-07-30 22:41:31.266 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2021-07-30 22:41:31.266 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2021-07-30 22:41:31.266 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2021-07-30 22:41:31.266 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2021-07-30 22:41:31.267 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2021-07-30 22:41:31.267 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2021-07-30 22:41:31.267 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 16
+2021-07-30 22:41:31.268 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":[{"id":7251855221150,"name":"Ant Design View","parent":100,"sort":1},{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2021-07-30 22:41:31.268 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2021-07-30 22:41:32.631 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:41:32.631 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-07-30 22:41:32.631 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.UserController.list
+2021-07-30 22:41:32.631 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:41:32.631 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-07-30 22:41:32.633 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2021-07-30 22:41:32.633 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:41:32.633 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==    Columns: count(0)
+2021-07-30 22:41:32.634 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==        Row: 0
+2021-07-30 22:41:32.634 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:41:32.634 INFO  com.zunduo.wiki.service.UserService               :44   [32m                  [0;39m 总行数:0
+2021-07-30 22:41:32.634 INFO  com.zunduo.wiki.service.UserService               :45   [32m                  [0;39m 总页数:0
+2021-07-30 22:41:32.634 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2021-07-30 22:41:32.634 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2021-07-30 22:41:35.772 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:41:35.772 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-07-30 22:41:35.772 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.CategoryController.all
+2021-07-30 22:41:35.773 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:41:35.773 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: []
+2021-07-30 22:41:35.773 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2021-07-30 22:41:35.774 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:41:35.775 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2021-07-30 22:41:35.775 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 7251855221150, 100, Ant Design View, 1
+2021-07-30 22:41:35.775 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2021-07-30 22:41:35.775 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2021-07-30 22:41:35.775 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2021-07-30 22:41:35.776 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2021-07-30 22:41:35.776 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2021-07-30 22:41:35.776 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2021-07-30 22:41:35.776 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2021-07-30 22:41:35.776 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2021-07-30 22:41:35.777 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2021-07-30 22:41:35.777 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2021-07-30 22:41:35.777 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2021-07-30 22:41:35.777 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2021-07-30 22:41:35.778 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2021-07-30 22:41:35.778 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2021-07-30 22:41:35.778 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2021-07-30 22:41:35.778 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 16
+2021-07-30 22:41:35.779 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":[{"id":7251855221150,"name":"Ant Design View","parent":100,"sort":1},{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2021-07-30 22:41:35.780 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2021-07-30 22:42:23.425 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:42:23.427 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-07-30 22:42:23.428 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.UserController.list
+2021-07-30 22:42:23.428 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:42:23.428 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-07-30 22:42:23.429 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2021-07-30 22:42:23.430 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:42:23.430 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==    Columns: count(0)
+2021-07-30 22:42:23.431 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==        Row: 1
+2021-07-30 22:42:23.431 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:42:23.431 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2021-07-30 22:42:23.432 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2021-07-30 22:42:23.432 TRACE com.zunduo.wiki.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2021-07-30 22:42:23.433 TRACE com.zunduo.wiki.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, 测试, e70e2222a9d67c4f2eae107533359aa4
+2021-07-30 22:42:23.433 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:42:23.433 INFO  com.zunduo.wiki.service.UserService               :44   [32m                  [0;39m 总行数:1
+2021-07-30 22:42:23.433 INFO  com.zunduo.wiki.service.UserService               :45   [32m                  [0;39m 总页数:1
+2021-07-30 22:42:23.439 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"success":true}
+2021-07-30 22:42:23.440 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：15 ms -------------
+2021-07-30 22:43:30.639 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:43:30.640 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-07-30 22:43:30.640 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.UserController.list
+2021-07-30 22:43:30.641 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:43:30.641 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-07-30 22:43:30.643 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2021-07-30 22:43:30.643 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:43:30.645 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==    Columns: count(0)
+2021-07-30 22:43:30.645 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==        Row: 1
+2021-07-30 22:43:30.646 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:43:30.646 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2021-07-30 22:43:30.647 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2021-07-30 22:43:30.648 TRACE com.zunduo.wiki.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2021-07-30 22:43:30.648 TRACE com.zunduo.wiki.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, 测试, e70e2222a9d67c4f2eae107533359aa4
+2021-07-30 22:43:30.648 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:43:30.649 INFO  com.zunduo.wiki.service.UserService               :44   [32m                  [0;39m 总行数:1
+2021-07-30 22:43:30.649 INFO  com.zunduo.wiki.service.UserService               :45   [32m                  [0;39m 总页数:1
+2021-07-30 22:43:30.649 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"success":true}
+2021-07-30 22:43:30.649 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：10 ms -------------
+2021-07-30 22:44:27.916 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:44:27.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-07-30 22:44:27.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.CategoryController.all
+2021-07-30 22:44:27.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:44:27.918 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: []
+2021-07-30 22:44:27.919 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2021-07-30 22:44:27.919 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:44:27.920 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2021-07-30 22:44:27.920 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 7251855221150, 100, Ant Design View, 1
+2021-07-30 22:44:27.920 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, 前端开发, 100
+2021-07-30 22:44:27.920 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2021-07-30 22:44:27.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2021-07-30 22:44:27.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2021-07-30 22:44:27.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, 基础应用, 201
+2021-07-30 22:44:27.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, 框架应用, 202
+2021-07-30 22:44:27.921 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2021-07-30 22:44:27.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, 基础应用, 301
+2021-07-30 22:44:27.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, 进阶方向应用, 302
+2021-07-30 22:44:27.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, 数据库, 400
+2021-07-30 22:44:27.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2021-07-30 22:44:27.922 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, 其它, 500
+2021-07-30 22:44:27.923 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, 服务器, 501
+2021-07-30 22:44:27.923 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, 开发工具, 502
+2021-07-30 22:44:27.923 TRACE c.z.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, 热门服务端语言, 503
+2021-07-30 22:44:27.923 DEBUG c.z.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 16
+2021-07-30 22:44:27.924 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":[{"id":7251855221150,"name":"Ant Design View","parent":100,"sort":1},{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架应用","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"其它","parent":0,"sort":500},{"id":501,"name":"服务器","parent":500,"sort":501},{"id":502,"name":"开发工具","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"success":true}
+2021-07-30 22:44:27.924 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2021-07-30 22:44:28.901 INFO  com.zunduo.wiki.aspect.LogAspect                  :46   [32m                  [0;39m ------------- 开始 -------------
+2021-07-30 22:44:28.901 INFO  com.zunduo.wiki.aspect.LogAspect                  :47   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-07-30 22:44:28.902 INFO  com.zunduo.wiki.aspect.LogAspect                  :48   [32m                  [0;39m 类名方法: com.zunduo.wiki.controller.UserController.list
+2021-07-30 22:44:28.902 INFO  com.zunduo.wiki.aspect.LogAspect                  :49   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-07-30 22:44:28.902 INFO  com.zunduo.wiki.aspect.LogAspect                  :69   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-07-30 22:44:28.903 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM user
+2021-07-30 22:44:28.903 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m ==> Parameters: 
+2021-07-30 22:44:28.904 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==    Columns: count(0)
+2021-07-30 22:44:28.904 TRACE c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m                  [0;39m <==        Row: 1
+2021-07-30 22:44:28.904 DEBUG c.z.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:44:28.905 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2021-07-30 22:44:28.905 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2021-07-30 22:44:28.906 TRACE com.zunduo.wiki.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2021-07-30 22:44:28.906 TRACE com.zunduo.wiki.mapper.UserMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1, test, 测试, e70e2222a9d67c4f2eae107533359aa4
+2021-07-30 22:44:28.907 DEBUG com.zunduo.wiki.mapper.UserMapper.selectByExample :137  [32m                  [0;39m <==      Total: 1
+2021-07-30 22:44:28.907 INFO  com.zunduo.wiki.service.UserService               :44   [32m                  [0;39m 总行数:1
+2021-07-30 22:44:28.907 INFO  com.zunduo.wiki.service.UserService               :45   [32m                  [0;39m 总页数:1
+2021-07-30 22:44:28.907 INFO  com.zunduo.wiki.aspect.LogAspect                  :81   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"success":true}
+2021-07-30 22:44:28.907 INFO  com.zunduo.wiki.aspect.LogAspect                  :82   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2021-07-30 22:47:38.831 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:47:38.836 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2021-07-30 22:47:38.840 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2021-07-30 22:47:38.930 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 14949 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-30 22:47:38.930 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-30 22:47:39.127 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-30 22:47:39.128 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:47:39.128 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-30 22:47:39.128 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-30 22:47:39.136 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-30 22:47:39.136 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 204 ms
+2021-07-30 22:47:39.392 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:47:39.607 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-30 22:47:39.619 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:47:39.622 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-30 22:47:39.627 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 0.738 seconds (JVM running for 2016.019)
+2021-07-30 22:47:39.629 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-30 22:47:39.630 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-30 22:47:39.630 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-30 22:48:14.835 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:48:15.070 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 14949 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-30 22:48:15.070 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-30 22:48:15.266 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-30 22:48:15.266 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:48:15.266 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-30 22:48:15.266 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-30 22:48:15.273 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-30 22:48:15.273 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 201 ms
+2021-07-30 22:48:15.457 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:48:15.569 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-07-30 22:48:15.575 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:48:15.577 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-07-30 22:48:15.580 INFO  com.zunduo.wiki.config.WikiApplication            :61   [32m                  [0;39m Started WikiApplication in 0.69 seconds (JVM running for 2051.951)
+2021-07-30 22:48:15.581 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-07-30 22:48:15.581 INFO  com.zunduo.wiki.config.WikiApplication            :22   [32m                  [0;39m Start Success!! Port on:
+2021-07-30 22:48:15.581 INFO  com.zunduo.wiki.config.WikiApplication            :23   [32m                  [0;39m Address: 	http://127.0.0.1:8880 
+2021-07-30 22:48:40.295 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-30 22:48:40.377 INFO  com.zunduo.wiki.config.WikiApplication            :55   [32m                  [0;39m Starting WikiApplication using Java 16.0.1 on ZunduodeMBP.lan with PID 14949 (/Users/zunduo/Downloads/wiki/target/classes started by zunduo in /Users/zunduo/Downloads/wiki)
+2021-07-30 22:48:40.377 INFO  com.zunduo.wiki.config.WikiApplication            :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-07-30 22:48:40.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-07-30 22:48:40.574 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-07-30 22:48:40.574 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-07-30 22:48:40.574 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-30 22:48:40.581 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-07-30 22:48:40.581 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 202 ms
+2021-07-30 22:48:40.677 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [/Users/zunduo/Downloads/wiki/target/classes/com/zunduo/wiki/controller/UserController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@192fd446]
+2021-07-30 22:48:40.677 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-07-30 22:48:40.682 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-30 22:48:40.699 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController' defined in file [/Users/zunduo/Downloads/wiki/target/classes/com/zunduo/wiki/controller/UserController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@192fd446]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.zunduo.wiki.config.WikiApplication.main(WikiApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.zunduo.wiki.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@192fd446]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/zunduo/wiki/service/UserService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3229)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2335)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.zunduo.wiki.service.UserService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:466)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 29 common frames omitted
