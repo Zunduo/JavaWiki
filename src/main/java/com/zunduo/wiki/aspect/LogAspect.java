@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.support.spring.PropertyPreFilters;
 
 import com.zunduo.wiki.util.RequestContext;
+import com.zunduo.wiki.util.UuidUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -34,6 +35,9 @@ public class LogAspect {
     @Pointcut("execution(public * com.zunduo.*.controller..*Controller.*(..))")
     public void controllerPointcut() {}
 
+    @Resource
+    private UuidUtils uuidUtils;
+
     @Before("controllerPointcut()")
     public void doBefore(JoinPoint joinPoint) throws Throwable {
 
@@ -42,6 +46,8 @@ public class LogAspect {
         HttpServletRequest request = attributes.getRequest();
         Signature signature = joinPoint.getSignature();
         String name = signature.getName();
+        // 增加日志流水号
+        MDC.put("LOG_ID", String.valueOf(uuidUtils.getId()));
 
         // 打印请求信息
         LOG.info("------------- 开始 -------------");
