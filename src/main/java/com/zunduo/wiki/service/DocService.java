@@ -5,6 +5,8 @@ import com.github.pagehelper.PageInfo;
 import com.zunduo.wiki.domain.Content;
 import com.zunduo.wiki.domain.Doc;
 import com.zunduo.wiki.domain.DocExample;
+import com.zunduo.wiki.exception.BusinessException;
+import com.zunduo.wiki.exception.BusinessExceptionCode;
 import com.zunduo.wiki.mapper.ContentMapper;
 import com.zunduo.wiki.mapper.DocMapper;
 import com.zunduo.wiki.mapper.DocMapperCust;
@@ -13,6 +15,8 @@ import com.zunduo.wiki.req.DocSaveReq;
 import com.zunduo.wiki.resp.DocQueryResp;
 import com.zunduo.wiki.resp.PageResp;
 import com.zunduo.wiki.util.CopyUtil;
+import com.zunduo.wiki.util.RedisUtil;
+import com.zunduo.wiki.util.RequestContext;
 import com.zunduo.wiki.util.UuidUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -39,6 +43,9 @@ public class DocService {
 
     @Resource
     private UuidUtils uuidUtils;
+
+    @Resource
+    private RedisUtil redisUtil;
 
     public PageResp<DocQueryResp> list(DocQueryReq req) {
 
@@ -126,6 +133,13 @@ public class DocService {
         }
     }
     public void vote(Long id) {
-        docMapperCust.increaseVoteCount(id);
+        // docMapperCust.increaseVoteCount(id);
+        // 远程IP+doc.id作为key，24小时内不能重复
+        String ip = RequestContext.getRemoteAddr();
+        if (redisUtil.validateRepeat("DOC_VOTE_" + id + "_" + ip, 5000)) {
+            docMapperCust.increaseVoteCount(id);
+        } else {
+            throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
+        }
     }
 }
