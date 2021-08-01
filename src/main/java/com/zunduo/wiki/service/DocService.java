@@ -18,6 +18,7 @@ import com.zunduo.wiki.util.CopyUtil;
 import com.zunduo.wiki.util.RedisUtil;
 import com.zunduo.wiki.util.RequestContext;
 import com.zunduo.wiki.util.UuidUtils;
+import com.zunduo.wiki.websocket.WebSocketServer;
 import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,7 +47,10 @@ public class DocService {
     private UuidUtils uuidUtils;
 
     @Resource
-    private RedisUtil redisUtil;
+    public RedisUtil redisUtil;
+
+    @Resource
+    public WebSocketServer webSocketServer;
 
     public PageResp<DocQueryResp> list(DocQueryReq req) {
 
@@ -142,6 +146,10 @@ public class DocService {
         } else {
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
+        //推送消息
+        Doc docDb = docMapper.selectByPrimaryKey(id);
+        webSocketServer.sendInfo("[" + docDb.getName() +"]被点赞！");
+
     }
     public void updateEbookInfo() {
         docMapperCust.updateEbookInfo();
