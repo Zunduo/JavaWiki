@@ -18,6 +18,7 @@ import com.zunduo.wiki.util.CopyUtil;
 import com.zunduo.wiki.util.RedisUtil;
 import com.zunduo.wiki.util.RequestContext;
 import com.zunduo.wiki.util.UuidUtils;
+import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -141,5 +142,8 @@ public class DocService {
         } else {
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
+    }
+    public void updateEbookInfo() {
+        docMapperCust.updateEbookInfo();
     }
 }
