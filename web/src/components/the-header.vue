@@ -22,6 +22,16 @@
       <a-menu-item key="/about">
         <router-link to="/about">About Us</router-link>
       </a-menu-item>
+      <a-popconfirm
+          title="Are you sure to logout?"
+          ok-text="是"
+          cancel-text="否"
+          @confirm="logout()"
+      >
+        <a class="login-menu" v-show="user.id">
+          <span>退出登录</span>
+        </a>
+      </a-popconfirm>
       <a class="login-menu" v-show="user.id">
         <span>Hello: {{user.name}}</span>
       </a>
