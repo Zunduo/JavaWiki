@@ -7,6 +7,7 @@ import com.zunduo.wiki.domain.Doc;
 import com.zunduo.wiki.domain.DocExample;
 import com.zunduo.wiki.mapper.ContentMapper;
 import com.zunduo.wiki.mapper.DocMapper;
+import com.zunduo.wiki.mapper.DocMapperCust;
 import com.zunduo.wiki.req.DocQueryReq;
 import com.zunduo.wiki.req.DocSaveReq;
 import com.zunduo.wiki.resp.DocQueryResp;
@@ -32,6 +33,9 @@ public class DocService {
 
     @Resource
     private ContentMapper contentMapper;
+
+    @Resource
+    private DocMapperCust docMapperCust;
 
     @Resource
     private UuidUtils uuidUtils;
@@ -82,6 +86,8 @@ public class DocService {
             if(ObjectUtils.isEmpty(req.getId())){
                 //新增
                 doc.setId(uuidUtils.getId());
+                doc.setViewCount(0);
+                doc.setVoteCount(0);
                 docMapper.insert(doc);
 
                 content.setId(doc.getId());
@@ -112,10 +118,14 @@ public class DocService {
     }
     public String findContent(Long id){
         Content content = contentMapper.selectByPrimaryKey(id);
+        docMapperCust.increaseViewCount(id);
         if (ObjectUtils.isEmpty(content)) {
             return "";
         } else {
         return content.getContent();
         }
+    }
+    public void vote(Long id) {
+        docMapperCust.increaseVoteCount(id);
     }
 }
