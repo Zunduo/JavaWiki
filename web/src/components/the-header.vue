@@ -10,13 +10,13 @@
       <a-menu-item key="/">
         <router-link to="/">Main Menu</router-link>
       </a-menu-item>
-      <a-menu-item key="/admin/user">
+      <a-menu-item key="/admin/user" :style="user.id ? {}: {display: 'none'}">
         <router-link to="/admin/user">User Management</router-link>
       </a-menu-item>
-      <a-menu-item key="/admin/ebook">
+      <a-menu-item key="/admin/ebook" :style="user.id ? {}: {display: 'none'}">
         <router-link to="/admin/ebook">Wiki Management</router-link>
       </a-menu-item>
-      <a-menu-item key="/admin/category">
+      <a-menu-item key="/admin/category" :style="user.id ? {}: {display: 'none'}">
         <router-link to="/admin/category">Category Management</router-link>
       </a-menu-item>
       <a-menu-item key="/about">
