@@ -22,6 +22,7 @@ import com.zunduo.wiki.websocket.WebSocketServer;
 import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
@@ -148,7 +149,8 @@ public class DocService {
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
         Doc docDb = docMapper.selectByPrimaryKey(id);
-        wsService.sendInfo("[" + docDb.getName() +"]被点赞！");
+        String logId = MDC.get("LOG_ID");
+        wsService.sendInfo("[" + docDb.getName() +"]被点赞！", logId);
     }
 
     public void updateEbookInfo() {
