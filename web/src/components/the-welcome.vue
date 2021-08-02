@@ -250,7 +250,7 @@
 
       onMounted(() => {
         getStatistic();
-        // testEcharts();
+         testEcharts();
         get30DayStatistic();
       });
 
